@@ -25,6 +25,11 @@ Como podemos ver no diagrama, estamos selecionando o pivô como elementos de ín
 
 # COMPARAÇÃO COM OUTROS ALGORITMOS DE ORDENAÇÃO 
 
-![Tabela Algoritmos](/imagens/tabela-comparacao.png)
+| ALGORITMO  | COMPLEXIDADE DO PIOR CASO | COMPLEXIDADE DO CASO MÉDIO | COMPLEXIDADE DO MELHOR CASO |
+|------------|---------------------------|----------------------------|-----------------------------|
+| BubbleSort | O(n^2)                    | O(n^2)                     | O(n^2)                      |
+| HeapSort   | O(n * log(n))             | O(n * log(n))              | O(n * log(n))               |
+| MergeSort  | O(n * log(n))             | O(n * log(n))              | O(n * log(n))               |
+| QuickSort  | O(n^2)                    | O(n * log(n))              | O(n * log(n))               |
  
  # CÓDIGO DO ALGORITMO
