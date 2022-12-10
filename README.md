@@ -6,13 +6,15 @@ A estratégia consiste em rearranjar as chaves de modo que as chaves "menores" p
 
 # COMPLEXIDADE DE TEMPO EM QUICKSORT 
 
-* Melhor e Médio Caso:
+* Melhor Caso:
 
 O melhor caso de QuickSort é quando selecionamos o pivô como um elemento médio, nesse caso a recursão ficará como mostra o diagrama abaixo:
 
-![Melhor e Médio Caso - Diagrama](/imagens/melhor-medio-caso.png)
+![Melhor Caso - Diagrama](/imagens/melhor-caso.png)
 
-No diagrama a altura da arvore é logN e em cada nível estaremos percorrendo todos os elementos com o total de operação de logN*N, pois selecionamos o elemento médio, então a matriz será dividida em tamos de tamanho igual, para que a altura da arvore seja mínima, com isso a complexidade de tempo será O(N*log(N)). 
+No diagrama a altura da arvore é logN e em cada nível estaremos percorrendo todos os elementos com o total de operação de logN * N, pois selecionamos o elemento médio, então a matriz será dividida em tamos de tamanho igual, para que a altura da arvore seja mínima, com isso a complexidade de tempo será O(N*log(N)).  
+
+* Médio Caso:
 
 * Pior Caso:
 
@@ -25,5 +27,4 @@ Como podemos ver no diagrama, estamos selecionando o pivô como elementos de ín
 
 ![Tabela Algoritmos](/imagens/tabela-comparacao.png)
  
-
- 
+ # CÓDIGO DO ALGORITMO
