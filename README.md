@@ -50,7 +50,7 @@ A função quickSortRec é responsável ?????
 ![Função quickSortRec - Diagrama](/imagens/quicksort-rec.png)
 
 A função quicksort é uma função auxiliar/facilitadora, responsável pela conversão do dados e chamada da função quickSortRec, ou seja, ela pega os dados necessários e converte para os paramentros da função quickSortRec.
-![Função quickSort - Diagrama](/imagens/quickSort.png)
+![Função quickSort - Diagrama](/imagens/quicksort.png)
 
 A função exibirVetor é responsável por percorrer todo o vetor exibindo os valores.
 ![Função exibirVetor - Diagrama](/imagens/exibir-vetor.png)
