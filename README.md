@@ -40,8 +40,20 @@ Como podemos ver no diagrama, estamos selecionando o pivô como elementos de ín
  
  # CÓDIGO DO ALGORITMO
 
-Na função abaixo temos o código responsavél por trocar os valores de duas posições do vetor.
+Na função abaixo temos o código responsável por trocar os valores de duas posições do vetor.
 ![Função trocaValores - Diagrama](/imagens/troca-valores.png)
 
-
+A função particionar é responsável por percorrer o vetor até encontrar os números que vão trocar de lugares entre si, fazendo com que um lado do pivô fique com números menores que ele, e do outro lado números maiores.
 ![Função particionar - Diagrama](/imagens/particionar.png)
+
+A função quickSortRec é responsável ?????
+![Função quickSortRec - Diagrama](/imagens/quicksort-rec.png)
+
+A função quicksort é uma função auxiliar/facilitadora, responsável pela conversão do dados e chamada da função quickSortRec, ou seja, ela pega os dados necessários e converte para os paramentros da função quickSortRec.
+![Função quickSort - Diagrama](/imagens/quickSort.png)
+
+A função exibirVetor é responsável por percorrer todo o vetor exibindo os valores.
+![Função exibirVetor - Diagrama](/imagens/exibir-vetor.png)
+
+??????
+![Função int-main - Diagrama](/imagens/int-main.png)
