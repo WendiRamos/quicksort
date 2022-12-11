@@ -16,6 +16,12 @@ No diagrama a altura da arvore é logN e em cada nível estaremos percorrendo to
 
 * Médio Caso:
 
+O caso médio de complexidade no QuickSort é baseado nos cálculos da imagem abaixo:
+
+![Médio Caso - Diagrama](/imagens/medio-caso.png)
+
+Os cálculos da imagem são baseados na média das outras complexidades(Melhor e Pior Caso).
+
 * Pior Caso:
 
 O pior caso acontecerá quando nossa matriz for classificada e selecionarmos o menor ou o maior elemento indexado como pivô, como mostra o diagrama abaixo:
@@ -33,3 +39,9 @@ Como podemos ver no diagrama, estamos selecionando o pivô como elementos de ín
 | QuickSort  | O(n^2)                    | O(n * log(n))              | O(n * log(n))               |
  
  # CÓDIGO DO ALGORITMO
+
+Na função abaixo temos o código responsavél por trocar os valores de duas posições do vetor.
+![Função trocaValores - Diagrama](/imagens/troca-valores.png)
+
+
+![Função particionar - Diagrama](/imagens/particionar.png)
