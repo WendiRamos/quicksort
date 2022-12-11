@@ -40,20 +40,21 @@ Como podemos ver no diagrama, estamos selecionando o pivô como elemento de índ
  
  # CÓDIGO DO ALGORITMO
 
-Na função abaixo temos o código responsável por trocar os valores de duas posições do vetor.
+A função trocaValores é responsável por trocar os valores de duas posições do vetor.
 ![Função trocaValores - Diagrama](/imagens/troca-valores.png)
 
-A função particionar é responsável por percorrer o vetor até encontrar os números que vão trocar de lugares entre si, fazendo com que um lado do pivô fique com números menores que ele, e do outro lado números maiores.
+A função particionar usa o último elemento como pivô. Em seguida, verifica cada elemento e o troca antes do pivô se seu valor for menor.
+No final do particionamento, todos os elementos menores que o pivô estão à esquerda dele e todos os elementos maiores que o pivô estão à direita dele. O pivô está em sua posição final classificada e a função retorna esta posição.
 ![Função particionar - Diagrama](/imagens/particionar.png)
 
-A função quickSortRec é responsável ?????
+A função quickSortRec recebe como parâmetros o array a ser ordenado, o primeiro e o último índice. Primeiro, verificamos os índices e continuamos apenas se ainda houver elementos a serem classificados. Obtemos o índice do pivô classificado e o usamos para chamar recursivamente o método particionar() com os mesmos parâmetros do método quickSortRec(), mas com índices diferentes.
 ![Função quickSortRec - Diagrama](/imagens/quicksort-rec.png)
 
-A função quicksort é uma função auxiliar/facilitadora, responsável pela conversão dos dados e chamada da função quickSortRec, ou seja, ela pega os dados necessários e converte para os parâmetros da função quickSortRec.
+A função quickSort serve apenas para facilitar a chamada do algoritmo de ordenação. Ela recebe apenas o vetor a ser ordenado e seu tamanho. É responsável por fazer a primeira chamada para a função quickSortRec (RECursiva), enviando os argumentos necessários para iniciar o algoritmo.
 ![Função quickSort - Diagrama](/imagens/quicksort.png)
 
 A função exibirVetor é responsável por percorrer todo o vetor exibindo os valores.
 ![Função exibirVetor - Diagrama](/imagens/exibir-vetor.png)
 
-A função int main serve como ponto de partida para a execução do programa, na função int main possui a chamada da função quickSort com seus parâmetros necessários.
+A função main serve como ponto de partida para a execução do programa. Ela possui a chamada da função quickSort com seus parâmetros necessários.
 ![Função int-main - Diagrama](/imagens/int-main.png)
