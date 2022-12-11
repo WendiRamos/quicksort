@@ -1,7 +1,7 @@
 # QUICKSORT 
 
-O algoritmo QuickSort é um método de ordenação muito rápido e eficiente, inventado por Charles Antony Richard Hoare, em 1960. O quicksort adota a estratégia de divisão e conquista. 
-A estratégia consiste em rearranjar as chaves de modo que as chaves "menores" precedam as chaves "maiores". Em seguida o quicksort ordena as duas sublistas de chaves menores e maiores, recursivamente até que a lista completa se encontre ordenada. 
+O algoritmo QuickSort é um método de ordenação muito rápido e eficiente, inventado por Charles Antony Richard Hoare, em 1960. O QuickSort adota a estratégia de divisão e conquista.
+A estratégia consiste em rearranjar as chaves de modo que as chaves "menores" precedam as chaves "maiores". Em seguida, o QuickSort ordena as duas sublistas de chaves menores e maiores, recursivamente até que a lista completa se encontre ordenada.
 
 
 # COMPLEXIDADE DE TEMPO EM QUICKSORT 
@@ -12,7 +12,7 @@ O melhor caso de QuickSort é quando selecionamos o pivô como um elemento médi
 
 ![Melhor Caso - Diagrama](/imagens/melhor-caso.png)
 
-No diagrama a altura da arvore é logN e em cada nível estaremos percorrendo todos os elementos com o total de operação de logN * N, pois selecionamos o elemento médio, então a matriz será dividida em ramos de tamanho igual, para que a altura da arvore seja mínima, com isso a complexidade de tempo será O(N*log(N)).  
+No diagrama a altura da árvore é logN e em cada nível estaremos percorrendo todos os elementos com o total de operação de logN * N, pois selecionamos o elemento médio, então a matriz será dividida em ramos de tamanho igual, para que a altura da árvore seja mínima, com isso a complexidade de tempo será O(N*log(N)). 
 
 * Médio Caso:
 
@@ -27,7 +27,7 @@ Os cálculos da imagem são baseados na média das outras complexidades(Melhor e
 O pior caso acontecerá quando nossa matriz for classificada e selecionarmos o menor ou o maior elemento indexado como pivô, como mostra o diagrama abaixo:
 
 ![Pior Caso - Diagrama](/imagens/pior-caso.png)
-Como podemos ver no diagrama, estamos selecionando o pivô como elemento de índice de canto, então a altura da arvore será N e no nó superior estará fazendo N operações, então N-1 e assim por diante até 1, com isso a complexidade de tempo será O(N^2). 
+Como podemos ver no diagrama, estamos selecionando o pivô como elemento de índice de canto, então a altura da árvore será N e no nó superior estará fazendo N operações, então N-1 e assim por diante até 1, com isso a complexidade de tempo será O(N^2). 
 
 # COMPARAÇÃO COM OUTROS ALGORITMOS DE ORDENAÇÃO 
 
@@ -49,11 +49,11 @@ A função particionar é responsável por percorrer o vetor até encontrar os n
 A função quickSortRec é responsável ?????
 ![Função quickSortRec - Diagrama](/imagens/quicksort-rec.png)
 
-A função quicksort é uma função auxiliar/facilitadora, responsável pela conversão do dados e chamada da função quickSortRec, ou seja, ela pega os dados necessários e converte para os paramentros da função quickSortRec.
+A função quicksort é uma função auxiliar/facilitadora, responsável pela conversão dos dados e chamada da função quickSortRec, ou seja, ela pega os dados necessários e converte para os parâmetros da função quickSortRec.
 ![Função quickSort - Diagrama](/imagens/quicksort.png)
 
 A função exibirVetor é responsável por percorrer todo o vetor exibindo os valores.
 ![Função exibirVetor - Diagrama](/imagens/exibir-vetor.png)
 
-??????
+A função int main serve como ponto de partida para a execução do programa, na função int main possui a chamada da função quickSort com seus parâmetros necessários.
 ![Função int-main - Diagrama](/imagens/int-main.png)
