@@ -52,16 +52,36 @@ void exibirVetor(int vetor[], int tamanho)
 
 int main()
 {
-    int vetor[] = {5, 2, 3, 4, 1, 6, 9, 7, 0, 8};
-    int tamanho = sizeof(vetor) / sizeof(vetor[0]);
+    int vetorMelhor[] = {1, 5, 3, 6, 7, 2, 8, 4};
+    int tamanhoMelhor = sizeof(vetorMelhor) / sizeof(vetorMelhor[0]);
 
-    printf("Antes do QuickSort:\n");
-    exibirVetor(vetor, tamanho);
+    int vetorMedio[] = {4, 3, 1, 7, 2, 8, 5, 6};
+    int tamanhoMedio = sizeof(vetorMedio) / sizeof(vetorMedio[0]);
 
-    quickSort(vetor, tamanho);
+    int vetorPior[] = {1, 2, 3, 4, 5, 6, 7, 8};
+    int tamanhoPior = sizeof(vetorPior) / sizeof(vetorPior[0]);
 
-    printf("Depois do QuickSort:\n");
-    exibirVetor(vetor, tamanho);
+    printf("Melhor Caso - Entrada:\n");
+    exibirVetor(vetorMelhor, tamanhoMelhor);
+    quickSort(vetorMelhor, tamanhoMelhor);
+    printf("Melhor Caso - Saida:\n");
+    exibirVetor(vetorMelhor, tamanhoMelhor);
+    printf("\n");
+    printf("\n");
+
+    printf("Medio Caso - Entrada:\n");
+    exibirVetor(vetorMedio, tamanhoMedio);
+    quickSort(vetorMedio, tamanhoMedio);
+    printf("Medio Caso - Saida:\n");
+    exibirVetor(vetorMedio, tamanhoMedio);
+    printf("\n");
+    printf("\n");
+    
+    printf("Pior Caso - Entrada:\n");
+    exibirVetor(vetorPior, tamanhoPior);
+    quickSort(vetorPior, tamanhoPior);
+    printf("Pior Caso - Saida:\n");
+    exibirVetor(vetorPior, tamanhoPior);
 
     return 0;
 }
