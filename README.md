@@ -58,3 +58,7 @@ A função exibirVetor é responsável por percorrer todo o vetor exibindo os va
 
 A função main serve como ponto de partida para a execução do programa. Ela possui a chamada da função quickSort com seus parâmetros necessários.
 ![Função int-main - Diagrama](/imagens/int-main.png)
+
+
+### VÍDEO APRESENTAÇÃO - YOUTUBE
+<a href=“https://youtu.be/XprFWhb4lRo“>Algoritmo QuickSort - CLIQUE AQUI!</a>
