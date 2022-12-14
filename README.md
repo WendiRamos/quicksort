@@ -61,4 +61,4 @@ A função main serve como ponto de partida para a execução do programa. Ela p
 
 
 ### VÍDEO APRESENTAÇÃO - YOUTUBE
-<a href=“https://youtu.be/XprFWhb4lRo“>Algoritmo QuickSort - CLIQUE AQUI!</a>
+[Clique aqui para acessar o vídeo explicativo do QuickSort](https://youtu.be/XprFWhb4lRo)
